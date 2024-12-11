@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../folder_structure/">
+        <link rel="prev" href="../api_integration/">
       
       
-        <link rel="next" href="../user/">
+        <link rel="next" href="../patient_details/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>API Integration - Virechana Assessment App Documentation</title>
+        <title>Model - Virechana Assessment App Documentation</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#api-integration" class="md-skip">
+        <a href="#user-data-model" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              API Integration
+              Model
             
           </span>
         </div>
@@ -248,6 +248,26 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_integration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -264,7 +284,7 @@
           
   
   <span class="md-ellipsis">
-    API Integration
+    Model
   </span>
   
 
@@ -275,7 +295,7 @@
         
   
   <span class="md-ellipsis">
-    API Integration
+    Model
   </span>
   
 
@@ -306,46 +326,82 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
+  <a href="#userfields" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup
+      UserFields
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-functions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Functions
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Functions">
+    <nav class="md-nav" aria-label="UserFields">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-initialization" class="md-nav__link">
+  <a href="#page-1-patient-details" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Initialization
+      Page 1: Patient Details
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-insert-vega-entries" class="md-nav__link">
+  <a href="#page-2-koshta-assessment" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Insert Vega Entries
+      Page 2: Koshta Assessment
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-insert-user-data" class="md-nav__link">
+  <a href="#page-3-vitals-and-physical-examination" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Insert User Data
+      Page 3: Vitals and Physical Examination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-4-shuddhi-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 4: Shuddhi Assessment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-5-samyak-yoga-lakshana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 5: Samyak Yoga Lakshana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-6-ayoga-of-virechana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 6: Ayoga of Virechana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-7-atiyoga-of-virechana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 7: Atiyoga of Virechana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-8-post-procedural-observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 8: Post-Procedural Observations
     </span>
   </a>
   
@@ -357,19 +413,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#helper-functions" class="md-nav__link">
+  <a href="#user-class" class="md-nav__link">
     <span class="md-ellipsis">
-      Helper Functions
+      User Class
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Helper Functions">
+    <nav class="md-nav" aria-label="User Class">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#create-or-get-worksheet" class="md-nav__link">
+  <a href="#constructor" class="md-nav__link">
     <span class="md-ellipsis">
-      Create or Get Worksheet
+      Constructor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tojson-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      toJson Method
     </span>
   </a>
   
@@ -381,51 +446,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-format" class="md-nav__link">
+  <a href="#get-fields-method" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Format
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Data Format">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#user-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Data
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#vega-entries" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vega Entries
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Error Handling
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      References
+      Get Fields Method
     </span>
   </a>
   
@@ -435,26 +458,6 @@
   
 </nav>
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../user/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Model
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -872,46 +875,82 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
+  <a href="#userfields" class="md-nav__link">
     <span class="md-ellipsis">
-      Setup
+      UserFields
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-functions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Functions
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Key Functions">
+    <nav class="md-nav" aria-label="UserFields">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#1-initialization" class="md-nav__link">
+  <a href="#page-1-patient-details" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Initialization
+      Page 1: Patient Details
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#2-insert-vega-entries" class="md-nav__link">
+  <a href="#page-2-koshta-assessment" class="md-nav__link">
     <span class="md-ellipsis">
-      2. Insert Vega Entries
+      Page 2: Koshta Assessment
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#3-insert-user-data" class="md-nav__link">
+  <a href="#page-3-vitals-and-physical-examination" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Insert User Data
+      Page 3: Vitals and Physical Examination
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-4-shuddhi-assessment" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 4: Shuddhi Assessment
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-5-samyak-yoga-lakshana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 5: Samyak Yoga Lakshana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-6-ayoga-of-virechana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 6: Ayoga of Virechana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-7-atiyoga-of-virechana" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 7: Atiyoga of Virechana
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#page-8-post-procedural-observations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Page 8: Post-Procedural Observations
     </span>
   </a>
   
@@ -923,19 +962,28 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#helper-functions" class="md-nav__link">
+  <a href="#user-class" class="md-nav__link">
     <span class="md-ellipsis">
-      Helper Functions
+      User Class
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Helper Functions">
+    <nav class="md-nav" aria-label="User Class">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#create-or-get-worksheet" class="md-nav__link">
+  <a href="#constructor" class="md-nav__link">
     <span class="md-ellipsis">
-      Create or Get Worksheet
+      Constructor
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tojson-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      toJson Method
     </span>
   </a>
   
@@ -947,51 +995,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-format" class="md-nav__link">
+  <a href="#get-fields-method" class="md-nav__link">
     <span class="md-ellipsis">
-      Data Format
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Data Format">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#user-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      User Data
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#vega-entries" class="md-nav__link">
-    <span class="md-ellipsis">
-      Vega Entries
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#error-handling" class="md-nav__link">
-    <span class="md-ellipsis">
-      Error Handling
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      References
+      Get Fields Method
     </span>
   </a>
   
@@ -1012,144 +1018,145 @@
                   
 
 
-<h1 id="api-integration">API Integration</h1>
-<p>This page provides an overview of the API integration used in the Virechana Assessment App, specifically the integration with <strong>Google Sheets</strong> for data storage.</p>
+<h1 id="user-data-model">User Data Model</h1>
+<p>The <strong><code>User</code></strong> class represents the data model for storing information across various pages of the Virechana Assessment App. This includes patient details, koshta assessment, vitals, shuddhi classifications, procedural outcomes, and more.</p>
+<hr />
 <h2 id="overview"><strong>Overview</strong></h2>
-<p>The <code>VirechanaSheetApi</code> class handles the integration with Google Sheets. It allows the app to:</p>
+<p>The <code>User</code> class and the <code>UserFields</code> utility provide a structured way to manage and store the data for each user. These fields are mapped directly to the headers in Google Sheets.</p>
+<hr />
+<h2 id="userfields"><strong>UserFields</strong></h2>
+<p>The <code>UserFields</code> class defines static constants that act as field names for both the Google Sheets headers and the <code>User</code> model. Below is the categorization of fields based on their corresponding pages.</p>
+<h3 id="page-1-patient-details"><strong>Page 1: Patient Details</strong></h3>
 <ul>
-<li>Initialize sheets for storing user and vega entry data.</li>
-<li>Insert new data into the respective sheets.</li>
+<li><strong><code>date</code></strong>: Date of the assessment.</li>
+<li><strong><code>pName</code></strong>: Patient's name.</li>
+<li><strong><code>uhid</code></strong>: Unique hospital ID.</li>
+<li><strong><code>age</code></strong>: Patient's age.</li>
+<li><strong><code>sex</code></strong>: Patient's gender.</li>
+<li><strong><code>opd</code></strong>: OPD number.</li>
+<li><strong><code>diagnosis</code></strong>: Diagnosis details.</li>
 </ul>
-<p>The integration uses the <code>gsheets</code> package for seamless interaction with Google Sheets.</p>
-<h2 id="setup"><strong>Setup</strong></h2>
-<ol>
-<li>
-<p><strong>Google Sheets API Credentials</strong></p>
-</li>
-<li>
-<p>The <code>credentials</code> JSON file from Google Cloud Platform is stored in <code>_credentials</code>.</p>
-</li>
-<li>
-<p>Replace the placeholder credentials with your actual JSON credentials for the Google Sheets API.</p>
-</li>
-<li>
-<p><strong>Spreadsheet ID</strong></p>
-</li>
-<li>
-<p>Set the <code>spreadsheetID</code> to the ID of the Google Sheet you want to interact with.</p>
-</li>
-</ol>
-<p><code>static final _spreadsheetID = 'your_spreadsheet_id';</code></p>
-<ol>
-<li><strong>Dependencies</strong>
-   Add the following dependencies to your <code>pubspec.yaml</code> file:</li>
-</ol>
-<p><code>dependencies:
-     gsheets: ^0.5.1</code></p>
-<ol>
-<li><strong>Initialization</strong>
-   The <code>init()</code> function initializes the Google Sheets API and prepares the sheets with the required headers.</li>
-</ol>
-<h2 id="key-functions"><strong>Key Functions</strong></h2>
-<h3 id="1-initialization"><strong>1. Initialization</strong></h3>
-<p>Initializes the Google Sheets API and prepares the worksheets.</p>
-<pre><code>static Future init() async {
-  try {
-    final spreadsheet = await _gsheets.spreadsheet(_spreadsheetID);
+<h3 id="page-2-koshta-assessment"><strong>Page 2: Koshta Assessment</strong></h3>
+<ul>
+<li><strong><code>koshta_freq</code></strong>: Frequency of bowel movements.</li>
+<li><strong><code>koshta_consistency</code></strong>: Stool consistency.</li>
+<li><strong><code>koshta_urgency</code></strong>: Urgency level for bowel movements.</li>
+<li><strong><code>koshta_experience</code></strong>: Experience after consuming specific items.</li>
+<li><strong><code>koshta_samyak</code></strong>: Snigdha Lakshana achieved in.</li>
+<li><strong><code>koshtaTotalScore</code></strong>: Total score for koshta assessment.</li>
+</ul>
+<h3 id="page-3-vitals-and-physical-examination"><strong>Page 3: Vitals and Physical Examination</strong></h3>
+<ul>
+<li><strong><code>temperature</code></strong>: Body temperature.</li>
+<li><strong><code>pulseRate</code></strong>: Pulse rate.</li>
+<li><strong><code>bp_systolic</code></strong>: Systolic blood pressure.</li>
+<li><strong><code>bp_diastolic</code></strong>: Diastolic blood pressure.</li>
+<li><strong><code>RespRate</code></strong>: Respiratory rate.</li>
+<li><strong><code>bmi</code></strong>: Body mass index.</li>
+<li><strong><code>weight</code></strong>: Body weight.</li>
+<li><strong><code>physExam</code></strong>: Observations from physical examination.</li>
+</ul>
+<h3 id="page-4-shuddhi-assessment"><strong>Page 4: Shuddhi Assessment</strong></h3>
+<ul>
+<li><strong><code>antiki_suddhi</code></strong>: Antiki shuddhi score.</li>
+<li><strong><code>vaigiki_shuddhi</code></strong>: Vaigiki shuddhi score.</li>
+<li><strong><code>laingiki_shuddhi</code></strong>: Laingiki shuddhi score.</li>
+<li><strong><code>shuddhi_final_score</code></strong>: Final shuddhi score.</li>
+<li><strong><code>shuddhi_classification</code></strong>: Classification of shuddhi (e.g., Pravara, Madhyama, etc.).</li>
+</ul>
+<h3 id="page-5-samyak-yoga-lakshana"><strong>Page 5: Samyak Yoga Lakshana</strong></h3>
+<ul>
+<li><strong><code>srotovishuddhi</code></strong>: Srotovishuddhi observation.</li>
+<li><strong><code>vatanululomana</code></strong>: Vatanululomana observation.</li>
+<li><strong><code>ruchi</code></strong>: Improved taste perception.</li>
+<li><strong><code>laghuta</code></strong>: Sense of lightness.</li>
+<li><strong><code>kayagni_anuvartana</code></strong>: Kayagni anuvartana (long-term digestion improvement).</li>
+<li><strong><code>varna_shuddhi</code></strong>: Improvement in skin complexion.</li>
+<li><strong><code>bhuddhi_shuddhi</code></strong>: Clarity of mind.</li>
+<li><strong><code>samprasadana</code></strong>: Restoration of sense organs.</li>
+</ul>
+<h3 id="page-6-ayoga-of-virechana"><strong>Page 6: Ayoga of Virechana</strong></h3>
+<ul>
+<li><strong><code>pratiloma_gati_dosha_srava</code></strong>: Pratiloma gati dosha srava issues.</li>
+<li><strong><code>glani</code></strong>: Lassitude and fatigue.</li>
+<li><strong><code>hridya_ashuddhi</code></strong>: Discomfort in the chest region.</li>
+<li><strong><code>kale_apravartan</code></strong>: Delayed response to the treatment.</li>
+<li><strong><code>kshtheevana</code></strong>: Nausea or excessive salivation.</li>
+<li><strong><code>tandra</code></strong>: Drowsiness or stupor.</li>
+<li><strong><code>marutasya_nigraha</code></strong>: Incomplete evacuation of body waste.</li>
+<li><strong><code>paridaha</code></strong>: Burning sensation.</li>
+<li><strong><code>bhrama</code></strong>: Dizziness.</li>
+<li><strong><code>gatreshu_bhramana</code></strong>: Involuntary body movements.</li>
+</ul>
+<h3 id="page-7-atiyoga-of-virechana"><strong>Page 7: Atiyoga of Virechana</strong></h3>
+<ul>
+<li><strong><code>medomamsa_udakaopmam</code></strong>: Foul-smelling stool.</li>
+<li><strong><code>angamarda</code></strong>: Body pain.</li>
+<li><strong><code>jarjaribhava</code></strong>: Weakness or loss of confidence.</li>
+<li><strong><code>klama</code></strong>: Fatigue without exertion.</li>
+<li><strong><code>vepana</code></strong>: Tremors.</li>
+<li><strong><code>tamah_pravesha</code></strong>: Feeling of darkness or dizziness.</li>
+<li><strong><code>hikka</code></strong>: Persistent hiccups.</li>
+<li><strong><code>guda_bhramsha</code></strong>: Rectal prolapse.</li>
+<li><strong><code>netra_Pravesha</code></strong>: Sunken eyes.</li>
+<li><strong><code>parikartika</code></strong>: Cutting pain in the rectal region.</li>
+<li><strong><code>chimchimayan</code></strong>: Tingling sensation.</li>
+<li><strong><code>parshva_shoola</code></strong>: Pain in the flanks.</li>
+<li><strong><code>shoonyata</code></strong>: Emptiness or thoughtlessness.</li>
+</ul>
+<h3 id="page-8-post-procedural-observations"><strong>Page 8: Post-Procedural Observations</strong></h3>
+<ul>
+<li><strong><code>post_procedural_temp</code></strong>: Post-procedural body temperature.</li>
+<li><strong><code>post_procedural_pulse</code></strong>: Post-procedural pulse rate.</li>
+<li><strong><code>post_procedural_bp_systolic</code></strong>: Post-procedural systolic blood pressure.</li>
+<li><strong><code>post_procedural_bp_diastolic</code></strong>: Post-procedural diastolic blood pressure.</li>
+<li><strong><code>post_procedural_resp</code></strong>: Post-procedural respiratory rate.</li>
+<li><strong><code>post_procedural_weight</code></strong>: Post-procedural weight.</li>
+<li><strong><code>post_procedural_complications</code></strong>: Observed complications post-procedure.</li>
+</ul>
+<hr />
+<h2 id="user-class"><strong>User Class</strong></h2>
+<p>The <code>User</code> class represents an individual patient's data. Each field corresponds to a <code>UserFields</code> property and is serialized into a JSON format for integration with Google Sheets.</p>
+<h3 id="constructor"><strong>Constructor</strong></h3>
+<p>The <code>User</code> class constructor accepts parameters for all fields, divided into categories (Page 1 to Page 8). Here's a sample instantiation:</p>
+<pre><code>const user = User(
+date: '2024-01-01',
+pName: 'Sachin Singh',
+uhid: 'UH123456',
+age: '35',
+sex: 'Male',
+opd: 'OPD789',
+diagnosis: 'Diagnosis Example',
+// Other additional parameters...
+);
 
-    // Initialize the Users sheet
-    _userSheet = await _getWorkSheet(spreadsheet, title: 'Users');
-    final userHeaders = UserFields.getFields();
-    await _userSheet!.values.insertRow(1, userHeaders);
+</code></pre>
+<h3 id="tojson-method"><strong>toJson Method</strong></h3>
+<p>The <code>toJson()</code> method converts the <code>User</code> object into a JSON-compatible <code>Map</code> for data insertion into Google Sheets.</p>
+<pre><code>
+Map&lt;String, dynamic&gt; toJson() =&gt; {
+UserFields.date: date ?? 'Unknown',
+UserFields.pName: pName ?? 'Unknown',
+UserFields.uhid: uhid ?? 'Unknown',
+// Other additional mappings...
+};
 
-    // Initialize the Vega Entries sheet
-    _vegaSheet = await _getWorkSheet(spreadsheet, title: 'VegaEntries');
-    final vegaHeaders = [
-      'Date', 'Patient_name', 'Time', 'Vega', 'Upavega',
-      'BP Systolic (mmHg)', 'BP Diastolic (mmHg)',
-      'Pulse', 'SpO2', 'Remarks'
-    ];
-    final existingVegaHeader = await _vegaSheet!.values.row(1);
-    if (existingVegaHeader.isEmpty) {
-      await _vegaSheet!.values.insertRow(1, vegaHeaders);
-    }
-  } catch (e) {
-    print('Init Error: $e');
-  }
-}
 </code></pre>
 <hr />
-<h3 id="2-insert-vega-entries"><strong>2. Insert Vega Entries</strong></h3>
-<p>Inserts multiple rows of Vega entry data into the <code>VegaEntries</code> sheet.</p>
-<pre><code>static Future insertVegaEntries(List&lt;List&lt;String&gt;&gt; rows) async {
-  try {
-    if (_vegaSheet == null) {
-      print('VegaEntries sheet not initialized');
-      return;
-    }
-    await _vegaSheet!.values.appendRows(rows);
-    print('Data inserted successfully into VegaEntries');
-  } catch (e) {
-    print('Error inserting Vega Entries: $e');
-  }
-}
-</code></pre>
-<h3 id="3-insert-user-data"><strong>3. Insert User Data</strong></h3>
-<p>Adds user information into the <code>Users</code> sheet.</p>
-<pre><code>static Future insert(List&lt;Map&lt;String, dynamic&gt;&gt; rowList) async {
-  if (_userSheet == null) return;
-  _userSheet!.values.map.appendRows(rowList);
-}
+<h2 id="get-fields-method"><strong>Get Fields Method</strong></h2>
+<p>The <code>getFields()</code> method in <code>UserFields</code> returns a list of all field names for initializing Google Sheets headers.</p>
+<pre><code>
+List&lt;String&gt; getFields() =&gt; [
+UserFields.date,
+UserFields.pName,
+UserFields.uhid,
+UserFields.age,
+// Other additional fields...
+];
+
 </code></pre>
 <hr />
-<h2 id="helper-functions"><strong>Helper Functions</strong></h2>
-<h3 id="create-or-get-worksheet"><strong>Create or Get Worksheet</strong></h3>
-<p>The <code>_getWorkSheet</code> function ensures a worksheet is created or fetched if it already exists.</p>
-<pre><code>static Future&lt;Worksheet&gt; _getWorkSheet(
-  Spreadsheet spreadsheet, {
-  required String title,
-}) async {
-  try {
-    return await spreadsheet.addWorksheet(title);
-  } catch (e) {
-    return spreadsheet.worksheetByTitle(title)!;
-  }
-}
-</code></pre>
-<h2 id="data-format"><strong>Data Format</strong></h2>
-<h3 id="user-data"><strong>User Data</strong></h3>
-<p>The <code>Users</code> worksheet is initialized with the following headers:</p>
-<ul>
-<li><strong>Name</strong></li>
-<li><strong>Age</strong></li>
-<li><strong>Gender</strong></li>
-<li><strong>Contact Details</strong></li>
-<li>(Additional fields as defined in <code>UserFields.getFields()</code>)</li>
-</ul>
-<h3 id="vega-entries"><strong>Vega Entries</strong></h3>
-<p>The <code>VegaEntries</code> worksheet uses the following headers:</p>
-<ul>
-<li><strong>Date</strong></li>
-<li><strong>Patient Name</strong></li>
-<li><strong>Time</strong></li>
-<li><strong>Vega</strong></li>
-<li><strong>Upavega</strong></li>
-<li><strong>BP Systolic (mmHg)</strong></li>
-<li><strong>BP Diastolic (mmHg)</strong></li>
-<li><strong>Pulse</strong></li>
-<li><strong>SpO2</strong></li>
-<li><strong>Remarks</strong></li>
-</ul>
-<h2 id="error-handling"><strong>Error Handling</strong></h2>
-<ul>
-<li><strong>Initialization Errors</strong>: If the spreadsheet or sheets are not correctly set up, appropriate messages are printed to the console.</li>
-<li><strong>Data Insertion Errors</strong>: Checks are in place to ensure sheets are initialized before inserting data.</li>
-</ul>
-<h2 id="references"><strong>References</strong></h2>
-<ul>
-<li><a href="https://pub.dev/packages/gsheets">GSheets Package Documentation</a></li>
-<li><a href="https://developers.google.com/sheets/api/quickstart">Google Sheets API Setup Guide</a></li>
-</ul>
+<p>This structured data model ensures all patient information and procedural outcomes are consistently captured and stored for analysis or further processing.</p>
 
 
 

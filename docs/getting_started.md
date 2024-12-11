@@ -80,7 +80,7 @@ To run the app on your local machine, follow these steps:
 
 ---
 
-You're now ready to use the Virechana Assessment App! If you have further questions, feel free to consult the [API Integration](api_integration.md) or [State Management](state_management.md) sections of this documentation.
+You're now ready to use the Virechana Assessment App! If you have further questions, feel free to consult the [API Integration](api_integration.md) or State Management sections of this documentation.
 
 ```
 

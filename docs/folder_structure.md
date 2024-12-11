@@ -81,7 +81,12 @@ lib/
   - `page1_patient_details.dart`: Form for patient details.
   - `page2_purvakarma.dart`: Form for Purvakarma assessment.
   - `page3_pradhana_karma.dart`: Tracks vitals during Pradhana Karma.
-  - Other screens follow a similar structure, catering to specific parts of the Virechana process.
+  - `page4_shuddhi_assessment.dart`: Shuddhi Assesments sections.
+  - `page5_samyaka.dart`: Samyak Yoga Lakshana Assessment.
+  - `page6_ayoga.dart`: Ayoga of Virechana Assessment.
+  - `page7_atiyoga.dart`: Atiyoga of Virechana Assessment.
+  - `page6_post_procedure.dart`: Post Procedure Assessment Details.
+  - `page6_summary.dart`: Summary of Assessment.
 
 ### **`state/`**
 
@@ -99,9 +104,11 @@ lib/
 
 ### **`main.dart`**
 
-- **Purpose**: Entry point of the app.
-- **Functionality**:
-  - Initializes the app.
-  - Configures routing and theme.
+**Purpose**: Entry point of the app.
+
+**Functionality**:
+
+- Initializes the app.
+- Configures routing and theme.
 
 This folder structure ensures the app is modular, easy to maintain, and scalable for future enhancements.

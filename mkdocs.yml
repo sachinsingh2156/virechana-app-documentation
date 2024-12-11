@@ -6,20 +6,20 @@ nav:
   - API Integration: api_integration.md
   - Model: user.md
   - Screen Details:
-      - Patient Details: screen_details.md#patient-details
-      - Purvakarma: screen_details.md#purvakarma
-      - Pradhana Karma: screen_details.md#pradhana-karma
-      - Shuddhi Assessment: screen_details.md#shuddhi-assessment
-      - Samyak: screen_details.md#samyak
-      - Ayoga: screen_details.md#ayoga
-      - Atiyoga: screen_details.md#atiyoga
-      - Post Procedure: screen_details.md#post-procedure
-      - Summary Page: screen_details.md#summary-page
+      - Patient Details: patient_details.md
+      - Purvakarma: purvakarma.md
+      - Pradhana Karma: pradhana_karma.md
+      - Shuddhi Assessment: shuddhi_assessment.md
+      - Samyak: samyak.md
+      - Ayoga: ayoga.md
+      - Atiyoga: atiyoga.md
+      - Post Procedure: post_procedure.md
+      - Summary Page: summary.md
   - State Management:
-      - Form State: state_management.md#form-state
-      - Samyak State: state_management.md#samyak-state
-      - Ayoga State: state_management.md#ayoga-state
-      - Atiyoga State: state_management.md#atiyoga-state
+      - Form State: form_state.md
+      - Samyak State: samyak_state.md
+      - Ayoga State: ayoga_state.md
+      - Atiyoga State: atiyoga_state.md
   - Widgets: widgets.md
 theme:
   name: material
