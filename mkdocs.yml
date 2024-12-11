@@ -1,0 +1,25 @@
+site_name: Virechana Assessment App Documentation
+nav:
+  - Home: index.md
+  - Getting Started: getting_started.md
+  - Folder Structure: folder_structure.md
+  - API Integration: api_integration.md
+  - Model: user.md
+  - Screen Details:
+      - Patient Details: screen_details.md#patient-details
+      - Purvakarma: screen_details.md#purvakarma
+      - Pradhana Karma: screen_details.md#pradhana-karma
+      - Shuddhi Assessment: screen_details.md#shuddhi-assessment
+      - Samyak: screen_details.md#samyak
+      - Ayoga: screen_details.md#ayoga
+      - Atiyoga: screen_details.md#atiyoga
+      - Post Procedure: screen_details.md#post-procedure
+      - Summary Page: screen_details.md#summary-page
+  - State Management:
+      - Form State: state_management.md#form-state
+      - Samyak State: state_management.md#samyak-state
+      - Ayoga State: state_management.md#ayoga-state
+      - Atiyoga State: state_management.md#atiyoga-state
+  - Widgets: widgets.md
+theme:
+  name: material
