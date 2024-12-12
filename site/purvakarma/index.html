@@ -1,0 +1,1299 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../patient_details/">
+      
+      
+        <link rel="next" href="../pradhana_karma/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>Purvakarma - Virechana Assessment App Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.6f8fc17f.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#purvakarma-assessment-page" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="Virechana Assessment App Documentation" class="md-header__button md-logo" aria-label="Virechana Assessment App Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Virechana Assessment App Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Purvakarma
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Virechana Assessment App Documentation" class="md-nav__button md-logo" aria-label="Virechana Assessment App Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Virechana Assessment App Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../getting_started/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../folder_structure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Folder Structure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api_integration/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    API Integration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../user/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Model
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Screen Details
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Screen Details
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../patient_details/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Patient Details
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Purvakarma
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Purvakarma
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Breakdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Declaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropdown-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dropdown Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropdown-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dropdown Implementation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-score-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Score Calculation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#koshta-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Koshta Classification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation Buttons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Navigation Buttons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#back-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Back Button
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Button
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extensions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#string-capitalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      String Capitalization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-first-element-or-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find First Element or Null
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pradhana_karma/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pradhana Karma
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shuddhi_assessment/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Shuddhi Assessment
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../samyak/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Samyak
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ayoga/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ayoga
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atiyoga/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atiyoga
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../post_procedure/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Post Procedure
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../summary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Summary Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    State Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            State Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../form_state/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Form State
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../samyak_state/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Samyak State
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ayoga_state/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ayoga State
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../atiyoga_state/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Atiyoga State
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../widgets/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Widgets
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-features" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Features
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-breakdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      Code Breakdown
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Code Breakdown">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#class-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Class Declaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropdown-options" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dropdown Options
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dropdown-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dropdown Implementation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#total-score-calculation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Total Score Calculation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#koshta-classification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Koshta Classification
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#navigation-buttons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation Buttons
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Navigation Buttons">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#back-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Back Button
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#next-button" class="md-nav__link">
+    <span class="md-ellipsis">
+      Next Button
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#extensions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extensions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Extensions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#string-capitalization" class="md-nav__link">
+    <span class="md-ellipsis">
+      String Capitalization
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#find-first-element-or-null" class="md-nav__link">
+    <span class="md-ellipsis">
+      Find First Element or Null
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="purvakarma-assessment-page">Purvakarma Assessment Page</h1>
+<p>The <code>PurvakarmaPage</code> collects and assesses data about the <strong>Purvakarma</strong> process, specifically focusing on the evaluation of <strong>Koshta</strong> through a series of dropdown fields with scores. It calculates a total score dynamically and classifies the Koshta based on predefined thresholds.</p>
+<h2 id="overview"><strong>Overview</strong></h2>
+<p><strong>Purpose</strong>: To assess Koshta (digestive strength and bowel habits) based on various criteria such as frequency, consistency, urgency, experience, and Snigdha Lakshana.</p>
+<p><strong>Features</strong>:</p>
+<p>Dropdowns for each assessment criterion with predefined scores.</p>
+<p>Dynamic total score calculation based on selected options.</p>
+<p>Koshta classification based on the total score.</p>
+<p>Navigation buttons to move between pages.</p>
+<h2 id="key-features">Key Features</h2>
+<ol>
+<li>
+<p><strong>Dynamic Dropdown Fields</strong><br />
+   Each dropdown represents an assessment criterion, allowing users to select an option with an associated score.<br />
+   Updates the state dynamically when an option is selected.</p>
+</li>
+<li>
+<p><strong>Total Score Calculation</strong><br />
+   Automatically calculates the total score based on selected dropdown options.</p>
+</li>
+<li>
+<p><strong>Koshta Classification</strong><br />
+   Classifies Koshta into <strong>Krura</strong>, <strong>Madhyama</strong>, or <strong>Mridu</strong> based on the total score.</p>
+</li>
+<li>
+<p><strong>Responsive Design</strong><br />
+   Adapts to different screen sizes using <code>MediaQuery</code> for consistent UI.</p>
+</li>
+<li>
+<p><strong>Navigation</strong><br />
+   Back and Next buttons for seamless navigation between pages.</p>
+</li>
+</ol>
+<h2 id="code-breakdown"><strong>Code Breakdown</strong></h2>
+<h3 id="class-declaration"><strong>Class Declaration</strong></h3>
+<pre><code>class PurvakarmaPage extends ConsumerStatefulWidget {
+  final PageController controller;
+
+  PurvakarmaPage({required this.controller});
+
+  @override
+  _PurvakarmaPageState createState() =&gt; _PurvakarmaPageState();
+}
+</code></pre>
+<p>Inherits from <code>ConsumerStatefulWidget</code> to enable integration with Riverpod for state management.
+Accepts a <code>PageController</code> to handle navigation between pages.</p>
+<hr />
+<h3 id="dropdown-options"><strong>Dropdown Options</strong></h3>
+<p>Dropdown options are predefined for each assessment criterion, with associated labels and scores:</p>
+<pre><code>final dropdownOptions = {
+  'frequency_per_day': [
+    {'label': 'Less than one', 'score': 1},
+    {'label': 'Once/twice', 'score': 2},
+    {'label': 'More than 2', 'score': 3},
+  ],
+  'consistency': [
+    {'label': 'Hard stool', 'score': 1},
+    {'label': 'Soft well-formed', 'score': 2},
+    {'label': 'Loose/watery', 'score': 3},
+  ],
+  'urgency': [
+    {'label': 'No urgency', 'score': 1},
+    {'label': 'Moderate', 'score': 2},
+    {'label': 'Marked urgency', 'score': 3},
+  ],
+  'experience': [
+    {'label': 'No change in bowel', 'score': 1},
+    {'label': 'Normal stool', 'score': 2},
+    {'label': 'Watery stool', 'score': 3},
+  ],
+  'samyak_snigdha': [
+    {'label': 'More than 6 days', 'score': 3},
+    {'label': '4-5 days', 'score': 2},
+    {'label': 'Less than 3 days', 'score': 1},
+  ],
+};
+</code></pre>
+<p>These options are used to generate dropdown fields dynamically.</p>
+<hr />
+<h3 id="dropdown-implementation"><strong>Dropdown Implementation</strong></h3>
+<pre><code>...dropdownOptions.entries.map((entry) {
+  final key = entry.key;
+  final options = entry.value;
+
+  return Padding(
+    padding: EdgeInsets.symmetric(vertical: screenHeight * 0.01),
+    child: DropdownButtonFormField&lt;Map&lt;String, dynamic&gt;&gt;(
+      decoration: InputDecoration(
+        labelText: key.replaceAll('_', ' ').capitalize(),
+        border: OutlineInputBorder(),
+      ),
+      value: options.firstWhereOrNull(
+        (option) =&gt; option['label'] == formData[key],
+      ),
+      items: options
+          .map((option) =&gt; DropdownMenuItem&lt;Map&lt;String, dynamic&gt;&gt;(
+                value: option,
+                child: Text(
+                    '${option['label']} (Score: ${option['score']})'),
+              ))
+          .toList(),
+      onChanged: (value) {
+        if (value != null) {
+          ref.read(formProvider.notifier).updateField(key, value['label']);
+          ref.read(formProvider.notifier).updateScore(key, value['score']);
+          _updateTotalScore();
+        }
+      },
+    ),
+  );
+}).toList(),
+</code></pre>
+<p>Dynamically creates dropdown fields for all criteria.</p>
+<p>Updates the selected value and score in the <code>formProvider</code> state.</p>
+<hr />
+<h3 id="total-score-calculation"><strong>Total Score Calculation</strong></h3>
+<pre><code>void _updateTotalScore() {
+  final formData = ref.read(formProvider);
+  final totalScore = formData['frequency_per_day_score'] +
+      formData['consistency_score'] +
+      formData['urgency_score'] +
+      formData['experience_score'] +
+      formData['samyak_snigdha_score'];
+
+  ref.read(formProvider.notifier).updateField('Koshta_total_score', totalScore);
+}
+</code></pre>
+<p>Calculates the sum of all selected scores and updates the total score in the form state.</p>
+<hr />
+<h3 id="koshta-classification"><strong>Koshta Classification</strong></h3>
+<pre><code>Text(
+  'Koshtha Classification:',
+  style: TextStyle(
+    fontSize: screenWidth * 0.045,
+    fontWeight: FontWeight.bold,
+  ),
+),
+Text(
+  '(1-5) Krura koshta\n'
+  '(6-10) Madhyama koshta\n'
+  '(11-15) Mridu koshta',
+  style: TextStyle(fontSize: screenWidth * 0.04),
+),
+</code></pre>
+<p>Displays the classification criteria for Koshta based on the total score.</p>
+<hr />
+<h3 id="navigation-buttons"><strong>Navigation Buttons</strong></h3>
+<h4 id="back-button"><strong>Back Button</strong></h4>
+<pre><code>IconButton(
+  icon: Icon(Icons.arrow_back),
+  onPressed: () {
+    widget.controller.previousPage(
+      duration: Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  },
+),
+</code></pre>
+<h4 id="next-button"><strong>Next Button</strong></h4>
+<pre><code>ElevatedButton(
+  onPressed: () {
+    widget.controller.nextPage(
+      duration: Duration(milliseconds: 300),
+      curve: Curves.easeInOut,
+    );
+  },
+  child: Text('Next'),
+),
+</code></pre>
+<p>Allows navigation between pages with smooth animations.</p>
+<hr />
+<h3 id="extensions"><strong>Extensions</strong></h3>
+<h4 id="string-capitalization"><strong>String Capitalization</strong></h4>
+<pre><code>extension StringExtension on String {
+  String capitalize() {
+    return &quot;${this[0].toUpperCase()}${this.substring(1)}&quot;;
+  }
+}
+</code></pre>
+<h4 id="find-first-element-or-null"><strong>Find First Element or Null</strong></h4>
+<pre><code>extension ListFirstWhereOrNull&lt;E&gt; on List&lt;E&gt; {
+  E? firstWhereOrNull(bool Function(E element) test) {
+    for (var element in this) {
+      if (test(element)) return element;
+    }
+    return null;
+  }
+}
+</code></pre>
+<p>Adds utility methods for string manipulation and safe list searches.</p>
+<hr />
+<h2 id="conclusion"><strong>Conclusion</strong></h2>
+<p>The <code>PurvakarmaPage</code> provides an intuitive and dynamic way to collect and assess Koshta data. It ensures accurate scoring, real-time updates to the state, and proper classification. This page is crucial for the Purvakarma assessment process in the app.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>

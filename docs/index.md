@@ -131,4 +131,10 @@ Explore the following sections for more information:
 
 ## Conclusion
 
-The **Virechana Karma Assessment App** is a robust and efficient solution for standardizing the Virechana procedure documentation. By integrating cutting-edge technologies, it ensures accuracy, reliability, and ease of use. Explore the app and enhance your Virechana documentation workflow today!
+The **Virechana Karma Assessment App** is a robust and efficient solution for standardizing the Virechana procedure documentation. By integrating cutting-edge technologies, it ensures accuracy, reliability, and ease of use.
+
+## **Contacts**
+
+Created by <a href="mailto:sumitk@iitj.ac.in">Dr. Sumit Kalra</a>,
+<a href="mailto:m24cse033@iitj.ac.in">Sachin Singh</a>,
+<a href="mailto:m24cse030@iitj.ac.in">Richard David</a>. &copy; 2024.

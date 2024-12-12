@@ -1,4 +1,6 @@
 site_name: Virechana Assessment App Documentation
+theme:
+  name: material
 nav:
   - Home: index.md
   - Getting Started: getting_started.md
@@ -21,5 +23,3 @@ nav:
       - Ayoga State: ayoga_state.md
       - Atiyoga State: atiyoga_state.md
   - Widgets: widgets.md
-theme:
-  name: material
