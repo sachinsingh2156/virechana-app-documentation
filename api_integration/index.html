@@ -1065,7 +1065,7 @@
     // Initialize the Vega Entries sheet
     _vegaSheet = await _getWorkSheet(spreadsheet, title: 'VegaEntries');
     final vegaHeaders = [
-      'Date', 'Patient_name', 'Time', 'Vega', 'Upavega',
+      'Date', 'UHID No.', 'Time', 'Vega', 'Upavega',
       'BP Systolic (mmHg)', 'BP Diastolic (mmHg)',
       'Pulse', 'SpO2', 'Remarks'
     ];
@@ -1084,11 +1084,9 @@
 <pre><code>static Future insertVegaEntries(List&lt;List&lt;String&gt;&gt; rows) async {
   try {
     if (_vegaSheet == null) {
-      print('VegaEntries sheet not initialized');
       return;
     }
     await _vegaSheet!.values.appendRows(rows);
-    print('Data inserted successfully into VegaEntries');
   } catch (e) {
     print('Error inserting Vega Entries: $e');
   }
